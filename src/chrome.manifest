@@ -1,0 +1,4 @@
+content shortnshare content/
+skin shortnshare default skin/
+overlay chrome://browser/content/browser.xul chrome://shortnshare/content/overlay.xul
+

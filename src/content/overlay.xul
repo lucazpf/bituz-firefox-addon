@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://shortenurl/skin/overlay.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://helloworld/locale/overlay.dtd">
+<overlay id="Shorten URL"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script src="overlay.js"/>
+
+  
+ <hbox id="urlbar-icons">  
+    <image id="shortenurl" class="plain urlbar-icon" insertbefore="feed-button" tooltiptext="Shorter" src="chrome://shortnshare/skin/shorter_icon.png" onclick="ShortenURL.onClick(event);"/>
+    
+  </hbox>  
+
+
+</overlay>
